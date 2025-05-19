@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PersonTableComponent } from './person-table.component';
+import { ListGroupMenuComponent } from './list-group-menu.component';
 
-describe('PersonTableComponent', () => {
-  let component: PersonTableComponent;
-  let fixture: ComponentFixture<PersonTableComponent>;
+describe('ListGroupMenuComponent', () => {
+  let component: ListGroupMenuComponent;
+  let fixture: ComponentFixture<ListGroupMenuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PersonTableComponent]
+      imports: [ListGroupMenuComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PersonTableComponent);
+    fixture = TestBed.createComponent(ListGroupMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
